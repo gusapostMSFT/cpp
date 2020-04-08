@@ -16,6 +16,12 @@ Cat::Cat() {
 	cout << "Cat created." << endl;
 }
 
+Cat::~Cat() {
+
+	cout << "Cat destroyed." << endl;
+
+}
+
 void Cat::speak() {
 
 	if (happy) {
