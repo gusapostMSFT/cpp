@@ -1,0 +1,5 @@
+﻿  Cat.cpp
+C:\Users\nic_c\Documents\cpp\Classes\Classes\Cat.cpp(39,8): warning C4552: '-': result of expression not used
+  Classes.cpp
+  Generating Code...
+  Classes.vcxproj -> C:\Users\nic_c\Documents\cpp\Classes\x64\Debug\Classes.exe

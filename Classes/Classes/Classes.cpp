@@ -21,11 +21,16 @@ int main() {
 	{
 		Cat test;
 
-		cat.set_age(9);
-		cat.make_happy();
-		cat.speak();
-		cat.jump();
+		test.set_name("Test subject 001");
+		test.set_age(9);
+		test.make_happy();
+		test.speak();
+		test.jump();
+		
+		cout << test.get_name() << ", " << test.get_age() << endl;
 	}
-	
+
+	cat.set_name("Cee Cee");
+	cout << cat.to_string() << endl;
 	return 0;
 }
