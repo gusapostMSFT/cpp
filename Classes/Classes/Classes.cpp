@@ -1,0 +1,20 @@
+#include <iostream>
+// Must include the class header file in all files where the class is being referenced.
+#include "Cat.h"
+using namespace std;
+
+int main() {
+
+	// Instantiates cat as a Cat object.
+	Cat cat;
+
+	// To acess the variables or methods of a class, use the . operator
+	cat.set_age(7);
+	cat.make_happy();
+	cat.speak();
+	cat.jump();
+
+	
+
+	return 0;
+}
