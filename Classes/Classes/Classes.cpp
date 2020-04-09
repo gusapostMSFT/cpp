@@ -8,10 +8,9 @@ int main() {
 	// Instantiates cat as a Cat object.
 	// Scope is the region in which the object exists.
 	// When the end } is reached, the destructor will be called.
-	Cat cat;
+	Cat cat("Cee Cee", 10);
 
 	// To acess the variables or methods of a class, use the . operator
-	cat.set_age(7);
 	cat.make_happy();
 	cat.speak();
 	cat.jump();
@@ -30,7 +29,9 @@ int main() {
 		cout << test.get_name() << ", " << test.get_age() << endl;
 	}
 
-	cat.set_name("Cee Cee");
 	cout << cat.to_string() << endl;
+
+	// To print the memory address, you can also use an & prefixing the name.
+	cout << cat.to_string() << ", memory location: " << &cat << endl;
 	return 0;
 }

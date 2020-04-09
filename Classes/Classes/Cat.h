@@ -21,15 +21,25 @@ private:
 	// Every instance of this class will have it's own variable.
 	int age;
 	bool happy;
+	string color;
 	string name;
 
 // public makes the functions inside accessible outside of the files associated with this class.
 public:
-	// Cat() is a constructor.
+
+	// Cat() is a default constructor.
 	// Notice how it is the same name as the class.
 	// Constructors run once when a new instance of the class object is instantiated.
 	// Constructors do not have a return type, so no need for a keyword in front.
-	Cat();
+	// If you declare a method with an initialization list, be sure to include {}.
+	Cat(); // : color("brown") {};
+
+	// Cat(string name, int age) is a parameterized constructor.
+	// You can have as many contructors as you want, just none with the same amount of parameter.
+	// You can also initialize the method here, like this. It does get a bit cluttered though and defeats the organization a header file has.
+	// Called "in-line implementation."
+	Cat(string name, int age);
+	//Cat(string name, int age) { this->name = name; this->age = age; }
 
 	// ~Cat() is a destructor.
 	// Same exact properties as a constructor, except instead of running on start it runs on destroy.

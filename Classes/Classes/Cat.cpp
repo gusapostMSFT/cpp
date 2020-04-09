@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <sstream>
 // Essentially pastes the file here behind the scenes.
 #include "Cat.h"
 
@@ -13,6 +13,24 @@ Cat::Cat() {
 	happy = true;
 	age = 2;
 	cout << "Cat created." << endl;
+}
+
+// This is a constructor initialization list.
+// By adding : after the method, you can initialize variables as shown below.
+// variable(parameter) replaces this->variable = parameter.
+// variable() is the class variable, parameter is the variable passed to the method.
+// You can also initialize a variable that has not been passed to the method.
+Cat::Cat(string name, int age): age(age), color("Black") {
+	// this refers to the class level variable.
+	// -> is a pointer!
+	this->name = name;
+
+	// By printing 'this' the memory address of the object will print.
+	// 0x is the prefix of the number. In this case, the address is in hexadecimal.
+	// 16 digits to choose from in each position. 0-9, a-f.
+	// Even though hexadecimal has letters, it is still a number.
+	cout << "Memory location: "<< this << endl;
+
 }
 
 Cat::~Cat() {
@@ -65,6 +83,8 @@ string Cat::get_name()
 }
 
 string Cat::to_string() {
-	// Remember concatenation is a thing.
-	return "The cat's name is: " + name;
+	stringstream ss;
+	ss << name << ", " << age << ", " << color;
+
+	return ss.str();
 }
