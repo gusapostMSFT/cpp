@@ -13,7 +13,7 @@ first number is multiplies by 1, second by 2, third by 4, fourth by 8
 
 Computer memory:
 
-visualize as boxes next to each other, where each box is a bit. I will use B for box
+visualize as boxes next to each other, where each box is a bit. I will use B for box/bit
 
 BBBB	this is 4 bits
 there are minimum and maximum values you can put in each bit

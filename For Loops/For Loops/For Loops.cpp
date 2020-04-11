@@ -10,5 +10,11 @@ int main() {
 		cout << "Trail " << i << endl;
 	 }
 
+	int j = 0;
+	// On the incrementation portion of a for loop, you can increment multiple variables at once.
+	for (int i = 0; i < 10; i++, j++) {
+		cout << i << " " << j << endl;
+	}
+
 	return 0;
 }
