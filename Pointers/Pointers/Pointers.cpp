@@ -46,6 +46,11 @@ int main() {
 	cout << "1. Double value: " << *pd_val << endl;
 	manipulate(pd_val);
 	cout << "4. Double value: " << *pd_val << endl;
+	
+	// By dereferencing the pointer, you can change the value the pointer points to.
+	*pd_val = 17.0;
+
+	cout << "5. Double value: " << *pd_val << endl;
 
 	return 0;
 }
