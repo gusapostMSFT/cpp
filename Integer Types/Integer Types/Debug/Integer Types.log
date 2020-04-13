@@ -1,4 +1,0 @@
-﻿  Integer Types.cpp
-C:\Users\nic_c\Documents\C++\Integer Types\Integer Types\Integer Types.cpp(20,39): warning C4305: 'initializing': truncation from 'unsigned __int64' to 'long'
-C:\Users\nic_c\Documents\C++\Integer Types\Integer Types\Integer Types.cpp(20,19): warning C4309: 'initializing': truncation of constant value
-  Integer Types.vcxproj -> C:\Users\nic_c\Documents\C++\Integer Types\Debug\Integer Types.exe
