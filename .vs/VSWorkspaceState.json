@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Pointers"
+    "\\Pointers",
+    "\\Strings"
   ],
-  "SelectedNode": "\\Pointers\\Pointers.sln",
+  "SelectedNode": "\\Strings\\Strings.sln",
   "PreviewInSolutionExplorer": false
 }

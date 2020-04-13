@@ -1,0 +1,13 @@
+﻿  Animals.cpp
+  Cat.cpp
+C:\Users\nic_c\Documents\cpp\Namespaces\Namespaces\Cat.cpp(3,9): error C2653: 'Cat': is not a class or namespace name
+C:\Users\nic_c\Documents\cpp\Namespaces\Namespaces\Cat.cpp(3,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nic_c\Documents\cpp\Namespaces\Namespaces\Cat.cpp(6,1): warning C4508: 'Cat': function should return a value; 'void' return type assumed
+C:\Users\nic_c\Documents\cpp\Namespaces\Namespaces\Cat.cpp(8,10): error C2653: 'Cat': is not a class or namespace name
+C:\Users\nic_c\Documents\cpp\Namespaces\Namespaces\Cat.cpp(8,10): error C2523: '<Unknown>::~Cat': destructor tag mismatch
+C:\Users\nic_c\Documents\cpp\Namespaces\Namespaces\Cat.cpp(8,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\nic_c\Documents\cpp\Namespaces\Namespaces\Cat.cpp(8,13): error C2084: function 'int Cat(void)' already has a body
+C:\Users\nic_c\Documents\cpp\Namespaces\Namespaces\Cat.cpp(3): message : see previous definition of 'Cat'
+C:\Users\nic_c\Documents\cpp\Namespaces\Namespaces\Cat.cpp(12,16): error C2653: 'Cat': is not a class or namespace name
+  Namespaces.cpp
+  Generating Code...

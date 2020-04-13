@@ -20,3 +20,13 @@ there are minimum and maximum values you can put in each bit
 
 BBBBBBBB 	this is a byte, a byte has 8 bits
 
+
+In c++ there are two types of memory: the stack and the heap.
+
+The stack is memory associated with local variables and the addresses of functions.
+	The stack is like a stack of plates.
+	This is also why you can have a 'stack overflow' when you call a function too many times or create too many variables.
+
+The heap is all the memory available to the computer.
+	The new keyword allocates memory on the heap.
+	if you have an array that can become too large, use the new keyword so you don't get a stack overflow.

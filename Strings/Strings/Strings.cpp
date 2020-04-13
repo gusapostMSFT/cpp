@@ -22,5 +22,10 @@ int main() {
 
 	cout << full_name << endl;
 
+	// You can also create a string like this:
+	char c = 'b';
+	// This instantiates name as the value of c, 10 times.
+	string name(10, c);
+
 	return 0;
 }
